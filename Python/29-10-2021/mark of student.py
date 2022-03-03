@@ -1,0 +1,11 @@
+name=str(input("Enter your name : "))
+print(name)
+mrk1=float(input("Enter the mark of English out of 100"))
+mrk2=float(input("Enter the mark of Hindhi out of 100"))
+mrk3=float(input("Enter the mark of Computer out of 100"))
+mrk4=float(input("Enter the mark of Maths out of 100"))
+mrk5=float(input("Enter the mark of Geology out of 100"))
+total=(mrk1 + mrk2 + +mrk4 + mrk5)
+percentage=(total/500)*100
+print("Total Marks is",total)
+print("Percentage is",percentage,"%")
